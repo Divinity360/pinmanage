@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be71193c-584d-46eb-a9ab-2fb0188983bb" name="Default Changelist" comment="new commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangopinmgmt/static/assets/pages/icon-tree.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,12 +69,11 @@
         <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/bower_components/jstree/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="91">
-              <caret line="462" column="31" selection-start-line="462" selection-start-column="31" selection-end-line="462" selection-end-column="31" />
+              <caret line="404" column="34" selection-start-line="404" selection-start-column="31" selection-end-line="404" selection-end-column="34" />
               <folding>
                 <element signature="e#2492#2595#2" expanded="true" />
                 <element signature="e#3925#4024#2" expanded="true" />
                 <element signature="e#5888#6153#2" expanded="true" />
-                <element signature="e#6850#7029#1" expanded="true" />
                 <element signature="e#9630#9895#2" expanded="true" />
                 <element signature="e#10054#10217#2" expanded="true" />
                 <element signature="e#12142#12305#2" expanded="true" />
@@ -148,6 +147,7 @@
       <find>icon-tree.png</find>
       <find>32</find>
       <find>32px.png</find>
+      <find>png</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -231,23 +231,6 @@
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="djangopinmgmt" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="jstree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="djangopinmgmt" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="jstree" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -260,12 +243,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/djangopinmgmt/static/bower_components/jstree/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/djangopinmgmt/static/assets/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Divinity\Downloads\Compressed\untitled\djangopinmgmt\static\assets\pages" />
       <recent name="C:\Users\Divinity\Downloads\Compressed\untitled\djangopinmgmt\static\bower_components\jstree\css" />
       <recent name="C:\Users\Divinity\Downloads\Compressed\untitled\djangopinmgmt\static\assets\pages\treeview" />
     </key>
@@ -320,7 +304,7 @@
       <workItem from="1569752731471" duration="374000" />
       <workItem from="1569756003570" duration="1238000" />
       <workItem from="1569757618931" duration="2823000" />
-      <workItem from="1569773773023" duration="11334000" />
+      <workItem from="1569773773023" duration="12173000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1569775656883</created>
@@ -347,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15769000" />
+    <option name="totallyTimeSpent" value="16608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -544,12 +528,11 @@
     <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/bower_components/jstree/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
-          <caret line="462" column="31" selection-start-line="462" selection-start-column="31" selection-end-line="462" selection-end-column="31" />
+          <caret line="404" column="34" selection-start-line="404" selection-start-column="31" selection-end-line="404" selection-end-column="34" />
           <folding>
             <element signature="e#2492#2595#2" expanded="true" />
             <element signature="e#3925#4024#2" expanded="true" />
             <element signature="e#5888#6153#2" expanded="true" />
-            <element signature="e#6850#7029#1" expanded="true" />
             <element signature="e#9630#9895#2" expanded="true" />
             <element signature="e#10054#10217#2" expanded="true" />
             <element signature="e#12142#12305#2" expanded="true" />

@@ -34,7 +34,6 @@ ALLOWED_HOSTS = ['cloudhotel.herokuapp.com','127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
-    'djangopinmgmt.apps.djangotestConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

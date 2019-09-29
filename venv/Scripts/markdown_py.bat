@@ -1,0 +1,1 @@
+@"C:\Users\Divinity\Downloads\Compressed\untitled\venv\Scripts\python.exe" "C:\Users\Divinity\Downloads\Compressed\untitled\venv\Scripts\markdown_py" %*

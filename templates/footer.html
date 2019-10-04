@@ -1,0 +1,63 @@
+{% load static %}
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    function status(clickedBtn, id) {
+        var text = document.getElementById(clickedBtn.dataset.descRef).innerText;
+        copied(text, id);
+
+        clickedBtn.value = "Copied to clipboard";
+        clickedBtn.disabled = true;
+        clickedBtn.style.color = 'white';
+        clickedBtn.style.background = 'gray';
+    }
+
+    function copied(x, y) {
+        var el = document.createElement('textarea');
+        el.value = x;
+        var copied = 'copy' + y;
+        console.log(copied);
+        document.getElementById(copied).appendChild(el);
+        el.focus();
+        el.select();
+        document.execCommand('SelectAll');
+        document.execCommand("copy", false, null);
+    }
+</script>
+<script type="text/javascript" src="{% static 'bower_components/jquery/js/jquery.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'bower_components/jquery-ui/js/jquery-ui.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'bower_components/popper.js/js/popper.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'bower_components/bootstrap/js/bootstrap.min.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'bower_components/jquery-slimscroll/js/jquery.slimscroll.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'bower_components/modernizr/js/modernizr.js' %}"></script>
+<script type="text/javascript" src="{% static 'bower_components/modernizr/js/css-scrollbars.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'bower_components/classie/js/classie.js' %}"></script>
+
+<script src="{% static 'bower_components/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+<script src="{% static 'bower_components/datatables.net-buttons/js/dataTables.buttons.min.js' %}"></script>
+<script src="{% static 'assets/pages/data-table/js/jszip.min.js' %}"></script>
+<script src="{% static 'assets/pages/data-table/js/pdfmake.min.js' %}"></script>
+<script src="{% static 'assets/pages/data-table/js/vfs_fonts.js' %}"></script>
+<script src="{% static 'bower_components/datatables.net-buttons/js/buttons.print.min.js' %}"></script>
+<script src="{% static 'bower_components/datatables.net-buttons/js/buttons.html5.min.js' %}"></script>
+<script src="{% static 'bower_components/datatables.net-bs4/js/dataTables.bootstrap4.min.js' %}"></script>
+<script src="{% static 'bower_components/datatables.net-responsive/js/dataTables.responsive.min.js' %}"></script>
+<script src="{% static 'bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'bower_components/i18next/js/i18next.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'bower_components/jquery-i18next/js/jquery-i18next.min.js' %}"></script>
+
+<script src="{% static 'assets/pages/data-table/js/data-table-custom.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/js/script.js' %}"></script>
+<script src="{% static 'assets/js/pcoded.min.js' %}"></script>
+<script src="{% static 'assets/js/demo-12.js' %}"></script>
+<script src="{% static 'assets/js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+<script src="{% static 'assets/js/jquery.mousewheel.min.js' %}"></script>
+
+</body>
+
+</html>

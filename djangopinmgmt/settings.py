@@ -8,7 +8,6 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
-import cloudinary
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 from django.conf.global_settings import DATABASES
@@ -39,16 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cloudinary',
    # 'django.contrib.sites',
 ]
 #SITE_ID = 1
-
-cloudinary.config(
-    cloud_name = "haider24",
-    api_key = "357144673552778",
-    api_secret = "vXtB00Z1Qp7ocDFFuxiEQ4Dsu3A"
-)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -86,16 +78,16 @@ WSGI_APPLICATION = 'djangopinmgmt.wsgi.application'
 
 DATABASES['default']=dj_database_url.config()
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'd7ouqfsmc37v31',
-#         'USER': 'raksseickcxisb',
-#         'PASSWORD': '82f56ba8127c394e4643f64fb85d1384f662cae0fc37b09366156f7e97ca733b',
-#         'HOST': 'ec2-54-225-96-191.compute-1.amazonaws.com',
-#         'PORT': '5432',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'djangopinmgmt',
+        'USER': 'postgres',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
 
 
 
@@ -143,6 +135,6 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 #STATICFILES_DIRS = (os.path.join(PROJECT_ROOT, "static"),)
 STATIC_URL = '/static/'
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Extra places for collectstatic to find static files.

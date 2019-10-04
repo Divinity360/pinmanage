@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be71193c-584d-46eb-a9ab-2fb0188983bb" name="Default Changelist" comment="new commit">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangopinmgmt/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djangopinmgmt/static/dist/clipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0002_auto_20180419_2129.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0003_auto_20180420_0114.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0004_auto_20180420_0158.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0005_auto_20180420_0207.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0006_auto_20180421_1652.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0007_auto_20180421_1658.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0008_auto_20180421_1715.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0009_auto_20180421_1730.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0010_auto_20180421_1829.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0011_auto_20180421_2243.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0012_comment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0013_customer_rating.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0014_auto_20180424_0311.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0015_auto_20180424_0317.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0016_auto_20180425_1707.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0017_auto_20180426_2359.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0018_auto_20180427_2351.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/migrations/0019_auto_20180429_0139.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangopinmgmt/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unsoldpins.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/unsoldpins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangopinmgmt/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="92">
               <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -123,10 +95,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="43" selection-start-column="43" selection-end-column="43" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/unsoldpins.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="208" column="117" lean-forward="true" selection-start-line="208" selection-start-column="117" selection-end-line="208" selection-end-column="117" />
+            <state relative-caret-position="113">
+              <caret line="229" column="103" lean-forward="true" selection-start-line="229" selection-start-column="103" selection-end-line="229" selection-end-column="103" />
               <folding>
                 <element signature="e#5577#9261#0#HTML" />
                 <element signature="e#14559#14582#0#HTML" expanded="true" />
@@ -203,6 +187,7 @@
         <option value="$PROJECT_DIR$/templates/footer.html" />
         <option value="$PROJECT_DIR$/djangopinmgmt/views.py" />
         <option value="$PROJECT_DIR$/templates/unsoldpins.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -225,22 +210,6 @@
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="djangopinmgmt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="djangopinmgmt" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,7 +319,7 @@
       <workItem from="1570030193081" duration="6466000" />
       <workItem from="1570120079348" duration="15495000" />
       <workItem from="1570182084439" duration="1632000" />
-      <workItem from="1570191686573" duration="7777000" />
+      <workItem from="1570191686573" duration="10461000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1569775656883</created>
@@ -377,7 +346,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96521000" />
+    <option name="totallyTimeSpent" value="99205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,7 +359,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13161875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -398,7 +366,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.26022914" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.26022914" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -407,7 +375,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.20130932" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.4599018" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -660,6 +628,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://8037eb87-18e7-4cbe-9b86-d2905036b681/database/djangopinmgmt/schema/public/table/djangopinmgmt_pin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="484c6bf2-20cf-4163-8dcb-6797663878c0">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unsoldpins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="229" column="103" lean-forward="true" selection-start-line="229" selection-start-column="103" selection-end-line="229" selection-end-column="103" />
+          <folding>
+            <element signature="e#5577#9261#0#HTML" />
+            <element signature="e#14559#14582#0#HTML" expanded="true" />
+            <element signature="e#14552#38425#0#HTML" />
+            <element signature="e#23546#23569#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/djangopinmgmt/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -670,18 +660,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://8037eb87-18e7-4cbe-9b86-d2905036b681/database/djangopinmgmt/schema/public/table/djangopinmgmt_pin">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="484c6bf2-20cf-4163-8dcb-6797663878c0">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangopinmgmt/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="92">
           <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -689,16 +670,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unsoldpins.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="208" column="117" lean-forward="true" selection-start-line="208" selection-start-column="117" selection-end-line="208" selection-end-column="117" />
-          <folding>
-            <element signature="e#5577#9261#0#HTML" />
-            <element signature="e#14559#14582#0#HTML" expanded="true" />
-            <element signature="e#14552#38425#0#HTML" />
-            <element signature="e#23546#23569#0#HTML" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="43" selection-start-column="43" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

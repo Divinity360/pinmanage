@@ -1,1 +1,1 @@
-Website can be visited at https://cloudhotel.herokuapp.com/
+Website can be visited at https://pinmanage.herokuapp.com/

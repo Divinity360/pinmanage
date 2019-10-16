@@ -1,0 +1,189 @@
+{% load static %} {% include 'includes/header.html' %}
+
+<div id="pcoded" class="pcoded">
+    <div class="pcoded-overlay-box"></div>
+    <div class="pcoded-container navbar-wrapper">
+        {% include 'includes/topbar.html' %}
+
+        <div class="pcoded-main-container">
+            <div class="pcoded-wrapper">
+                {% include 'includes/sidebar.html' %}
+                <div class="pcoded-content">
+                    <div class="pcoded-inner-content">
+
+                        <div class="main-body">
+                            <div class="page-wrapper">
+
+                                <div class="page-header">
+                                    <div class="page-header-title">
+                                        <h3 style="font-weight: bold">MY CARD</h3>
+                                        <br/>
+                                        <span>Click on the card to edit</span>
+                                    </div>
+                                </div>
+                                <div class="page-body">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-12 col-lg-4">
+                                            <div class="card payment-card">
+                                                <a href="#" class="btn btn-outline-primary text-left"
+                                                   data-toggle="modal" data-target="#edit-card-modal">
+                                                    <div>
+                                                        <i class="icofont icofont-paypal-alt"></i>
+                                                        <h5>**** **** **** 1234</h5>
+                                                        <div class="row m-t-10">
+                                                            <div class="col-sm-6">
+                                                                <strong class="m-r-5">Expiry Date :</strong>
+                                                                <br/>
+                                                                20/09/17
+                                                            </div>
+                                                            <div class="col-sm-6 text-right">
+                                                                <strong class="m-r-5">Name :</strong>
+                                                                <br/>
+                                                                Airi Sawarm
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12 col-lg-4">
+                                            <div class="card payment-card">
+                                                <a href="#" class="btn btn-outline-primary text-left"
+                                                   data-toggle="modal" data-target="#edit-card-modal">
+                                                    <div>
+                                                        <i class="icofont icofont-visa-alt"></i>
+                                                        <h5>**** **** **** 1234</h5>
+                                                        <div class="row m-t-10">
+                                                            <div class="col-sm-6">
+                                                                <strong class="m-r-5">Expiry Date :</strong>
+                                                                <br/>
+                                                                20/09/17
+                                                            </div>
+                                                            <div class="col-sm-6 text-right">
+                                                                <strong class="m-r-5">Name :</strong>
+                                                                <br/>
+                                                                Airi Sawarm
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-12 col-lg-4">
+                                            <div class="card payment-card">
+                                                <a href="#" class="btn btn-outline-primary text-left"
+                                                   data-toggle="modal" data-target="#edit-card-modal">
+                                                    <div>
+                                                        <i class="icofont icofont-mastercard"></i>
+                                                        <h5>**** **** **** 1234</h5>
+                                                        <div class="row m-t-10">
+                                                            <div class="col-sm-6">
+                                                                <strong class="m-r-5">Expiry Date :</strong>
+                                                                <br/>
+                                                                20/09/17
+                                                            </div>
+                                                            <div class="col-sm-6 text-right">
+                                                                <strong class="m-r-5">Name :</strong>
+                                                                <br/>
+                                                                Airi Sawarm
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-primary btn-block" style="margin-top: 30px" data-toggle="modal" data-target="#add-card-modal"><span
+                                                style="font-weight: bold">ADD NEW CARD</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="styleSelector">
+                        </div>
+
+                        {# Modals #}
+                        <div class="modal fade" id="edit-card-modal" tabindex="-1">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Edit Credit Card Details</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body p-b-0">
+                                        <form class="payment-form">
+                                            <div class="form-group">
+                                                <input name="number" type="tel" class="form-control"
+                                                       placeholder="Card Number">
+                                            </div>
+                                            <div class="form-group">
+                                                <input name="name" type="text" class="form-control"
+                                                       placeholder="Full Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input name="date" type="tel" class="form-control"
+                                                       placeholder="MM/YY">
+                                            </div>
+                                            <div class="form-group">
+                                                <input name="number" type="number" class="form-control"
+                                                       placeholder="CVC">
+                                            </div>
+                                            <div class="text-center">
+                                                <a href="#" class="btn btn-primary waves-effect waves-light">Submit</a>
+                                            </div>
+                                            <p/>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="add-card-modal" tabindex="-1">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Add New Credit Card</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <p/>
+                                    <div class="col-sm-12">
+                                        <div class="card-wrapper"></div>
+                                    </div>
+                                    <div class="modal-body p-b-0">
+                                        <form class="payment-form">
+                                            <div class="form-group">
+                                                <input name="number" type="tel" class="form-control"
+                                                       placeholder="Card Number">
+                                            </div>
+                                            <div class="form-group">
+                                                <input name="name" type="text" class="form-control"
+                                                       placeholder="Full Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <input name="date" type="tel" class="form-control"
+                                                       placeholder="MM/YY">
+                                            </div>
+                                            <div class="form-group">
+                                                <input name="number" type="number" class="form-control"
+                                                       placeholder="CVC">
+                                            </div>
+                                            <div class="text-center">
+                                                <a href="#" class="btn btn-primary waves-effect waves-light">Submit</a>
+                                            </div>
+                                            <p/>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'includes/footer.html' %}

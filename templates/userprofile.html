@@ -1,70 +1,13 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8"/><!-- /Added by HTTrack -->
-<head>
-    <title>Pin Management and Dispensing</title>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="description" content="#">
-    <meta name="author" content="#">
-
-    <link rel="icon" href="{% static 'assets/images/favicon.ico" type="image/x-icon' %}">
-
-    <link href="https://fonts.googleapis.com/css?family=Mada:300,400,500,600,700" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="{% static 'bower_components/font-awesome/css/font-awesome.min.css' %}">
-
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/pages/advance-elements/css/bootstrap-datetimepicker.css' %}">
-
-    <link rel="stylesheet" type="text/css"
-          href="{% static 'bower_components/bootstrap-daterangepicker/css/daterangepicker.css' %}"/>
-
-    <link rel="stylesheet" type="text/css" href="{% static 'bower_components/datedropper/css/datedropper.min.css' %}"/>
-
-
-        <link rel="stylesheet" type="text/css" href="{% static 'bower_components/bootstrap/css/bootstrap.min.css' %}">
-
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/icon/themify-icons/themify-icons.css' %}">
-
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/icon/icofont/css/icofont.css' %}">
-
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/pages/flag-icon/flag-icon.min.css' %}">
-
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/pages/menu-search/css/component.css' %}">
-
-    <link rel="stylesheet" type="text/css"
-          href="{% static 'bower_components/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/pages/data-table/css/buttons.dataTables.min.css' %}">
-    <link rel="stylesheet" type="text/css"
-          href="{% static 'bower_components/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}">
-
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.css' %}">
-
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/linearicons.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/simple-line-icons.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/ionicons.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/jquery.mCustomScrollbar.css' %}">
-</head>
-<body>
-
-<div class="theme-loader">
-    <div class="ball-scale">
-        <div></div>
-    </div>
-</div>
+{% load static %} {% include 'includes/header.html' %}
 
 <div id="pcoded" class="pcoded">
     <div class="pcoded-overlay-box"></div>
     <div class="pcoded-container navbar-wrapper">
-        {% include 'topbar.html' %}
+        {% include 'includes/topbar.html' %}
 
         <div class="pcoded-main-container">
             <div class="pcoded-wrapper">
-                {% include 'sidebar.html' %}
+                {% include 'includes/sidebar.html' %}
                 <div class="pcoded-content">
                     <div class="pcoded-inner-content">
 

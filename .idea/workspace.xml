@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be71193c-584d-46eb-a9ab-2fb0188983bb" name="Default Changelist" comment="new commit">
+      <change afterPath="$PROJECT_DIR$/templates/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/updatecard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/wallet.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/static/assets/pages/data-table/extensions/fixed-header/js/dataTables.fixedHeader.min.d58e45c726b1.d58e45c726b1.js" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/static/assets/pages/data-table/extensions/fixed-header/js/dataTables.fixedHeader.min.d58e45c726b1.d58e45c726b1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/static/assets/pages/data-table/extensions/fixed-header/js/dataTables.fixedHeader.min.d58e45c726b1.js" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/static/assets/pages/data-table/extensions/fixed-header/js/dataTables.fixedHeader.min.d58e45c726b1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/static/assets/pages/data-table/extensions/fixed-header/js/dataTables.fixedHeader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/static/assets/pages/data-table/extensions/fixed-header/js/dataTables.fixedHeader.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/datatables.net/js/jquery.dataTables.min.0833b810758f.0833b810758f.js" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/datatables.net/js/jquery.dataTables.min.0833b810758f.0833b810758f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/datatables.net/js/jquery.dataTables.min.0833b810758f.js" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/datatables.net/js/jquery.dataTables.min.0833b810758f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/datatables.net/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/datatables.net/js/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/ekko-lightbox/js/ekko-lightbox.e909b9de6215.e909b9de6215.js" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/ekko-lightbox/js/ekko-lightbox.e909b9de6215.e909b9de6215.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/ekko-lightbox/js/ekko-lightbox.e909b9de6215.js" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/ekko-lightbox/js/ekko-lightbox.e909b9de6215.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/ekko-lightbox/js/ekko-lightbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/static/bower_components/ekko-lightbox/js/ekko-lightbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangopinmgmt/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangopinmgmt/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/polls/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/soldpins.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/soldpins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/topbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/topbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unsoldpins.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/unsoldpins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/userprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userprofile.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,51 +94,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangopinmgmt/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="136" column="23" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
-              <folding>
-                <element signature="e#308#317#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangopinmgmt/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state relative-caret-position="210">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="43" selection-start-column="43" selection-end-column="43" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/unsoldpins.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="229" column="103" lean-forward="true" selection-start-line="229" selection-start-column="103" selection-end-line="229" selection-end-column="103" />
-              <folding>
-                <element signature="e#5577#9261#0#HTML" />
-                <element signature="e#14559#14582#0#HTML" expanded="true" />
-                <element signature="e#14552#38425#0#HTML" />
-                <element signature="e#23546#23569#0#HTML" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,11 +108,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangopinmgmt/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="529">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/djangopinmgmt/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#637#669#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/userprofile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6698">
+              <caret line="394" selection-start-line="394" selection-end-line="394" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/unsoldpins.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="222" column="123" lean-forward="true" selection-start-line="222" selection-start-column="123" selection-end-line="222" selection-end-column="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/includes/sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="84" column="6" lean-forward="true" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -157,6 +189,21 @@
       <find>html</find>
       <find>dist</find>
       <find>jquer</find>
+      <find>page-bo</find>
+      <find>{% include</find>
+      <find>page-body</find>
+      <find>jp-</find>
+      <find>e-pa</find>
+      <find>border</find>
+      <find>border button</find>
+      <find>awes</find>
+      <find>324</find>
+      <find>news</find>
+      <find>notifict</find>
+      <find>total</find>
+      <find>class=&quot;clipper&quot;</find>
+      <find>class=&quot;clipper&quot;</find>
+      <find>undefined</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,26 +215,37 @@
         <option value="$PROJECT_DIR$/djangotest/urls.py" />
         <option value="$PROJECT_DIR$/templates/homepage.html" />
         <option value="$PROJECT_DIR$/djangotest/settings.py" />
-        <option value="$PROJECT_DIR$/djangopinmgmt/urls.py" />
         <option value="$PROJECT_DIR$/djangopinmgmt/Settings/base.py" />
         <option value="$PROJECT_DIR$/djangopinmgmt/static/assets/pages/treeview/treeview.css" />
         <option value="$PROJECT_DIR$/djangopinmgmt/static/bower_components/jstree/css/style.min.css" />
-        <option value="$PROJECT_DIR$/templates/soldpins.html" />
-        <option value="$PROJECT_DIR$/templates/sidebar.html" />
         <option value="$PROJECT_DIR$/templates/topbar.html" />
-        <option value="$PROJECT_DIR$/templates/userprofile.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/signup.html" />
         <option value="$PROJECT_DIR$/templates/forgotpass1.html" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/djangopinmgmt/admin.py" />
         <option value="$PROJECT_DIR$/djangopinmgmt/models.py" />
         <option value="$PROJECT_DIR$/djangopinmgmt/settings.py" />
-        <option value="$PROJECT_DIR$/templates/header.html" />
         <option value="$PROJECT_DIR$/templates/footer.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/templates/header.html" />
+        <option value="$PROJECT_DIR$/templates/sidebar.html" />
+        <option value="$PROJECT_DIR$/templates/soldpins.html" />
+        <option value="C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/product-payment.html" />
+        <option value="C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/modal-form.html" />
+        <option value="$PROJECT_DIR$/templates/updatecard.html" />
+        <option value="$PROJECT_DIR$/templates/payment.html" />
+        <option value="C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/index-2.html" />
+        <option value="C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/dashboard-ecommerce.html" />
+        <option value="$PROJECT_DIR$/templates/notifications.html" />
+        <option value="$PROJECT_DIR$/templates/wallet.html" />
+        <option value="$PROJECT_DIR$/templates/history.html" />
+        <option value="$PROJECT_DIR$/templates/userprofile.html" />
+        <option value="$PROJECT_DIR$/djangopinmgmt/urls.py" />
+        <option value="$PROJECT_DIR$/templates/includes/footer.html" />
         <option value="$PROJECT_DIR$/djangopinmgmt/views.py" />
         <option value="$PROJECT_DIR$/templates/unsoldpins.html" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/templates/includes/sidebar.html" />
       </list>
     </option>
   </component>
@@ -211,6 +269,11 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -226,7 +289,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/djangopinmgmt/static/dist" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -319,7 +382,13 @@
       <workItem from="1570030193081" duration="6466000" />
       <workItem from="1570120079348" duration="15495000" />
       <workItem from="1570182084439" duration="1632000" />
-      <workItem from="1570191686573" duration="10461000" />
+      <workItem from="1570191686573" duration="11849000" />
+      <workItem from="1570274811396" duration="139000" />
+      <workItem from="1570792576473" duration="7050000" />
+      <workItem from="1570827508430" duration="6557000" />
+      <workItem from="1570964133034" duration="10338000" />
+      <workItem from="1571076929449" duration="39682000" />
+      <workItem from="1571227851351" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1569775656883</created>
@@ -346,7 +415,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99205000" />
+    <option name="totallyTimeSpent" value="166858000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,14 +428,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13161875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11875945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.26022914" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.21603929" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -375,7 +445,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.4599018" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.36006546" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -383,6 +453,30 @@
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13993949" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3747954" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.36006546" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -392,126 +486,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="new commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/base/images/cloud.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/homepage.html" />
-    <entry file="file://$PROJECT_DIR$/templates/rooms.html" />
-    <entry file="file://$PROJECT_DIR$/templates/base.html" />
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/confirmpass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="40" column="68" lean-forward="true" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/migrations/0006_auto_20180421_1652.py" />
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/assets/pages/treeview/icon-tree.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/bower_components/jstree/css/32px.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/bower_components/jstree/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6480">
-          <caret line="405" column="1" selection-start-line="405" selection-start-column="1" selection-end-line="405" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/assets/pages/treeview/throbber.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/Settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#229#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Cloud-Based-Hotel-Booking-and-Management-Web-Application/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="40" column="68" lean-forward="true" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/assets/pages/treeview/treeview.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10308">
-          <caret line="1055" lean-forward="true" selection-start-line="1055" selection-end-line="1055" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/topbar.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/soldpins.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/userprofile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="78" column="73" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#h2#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangopinmgmt/migrations/0003_auto_20180420_0114.py" />
     <entry file="file://$PROJECT_DIR$/djangopinmgmt/migrations/0002_auto_20190930_2152.py" />
     <entry file="das://8037eb87-18e7-4cbe-9b86-d2905036b681/role/pg_write_server_files">
@@ -548,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/dist/clipboard.js" />
     <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/dist/clipboard-action.js" />
     <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/dist/clipboard.min.js">
@@ -570,16 +537,6 @@
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="136" column="23" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
-          <folding>
-            <element signature="e#308#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,20 +562,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/footer.html" />
     <entry file="das://8037eb87-18e7-4cbe-9b86-d2905036b681/database/djangopinmgmt/schema/public/table/djangopinmgmt_unsold">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="484c6bf2-20cf-4163-8dcb-6797663878c0">
@@ -637,36 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unsoldpins.html">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="229" column="103" lean-forward="true" selection-start-line="229" selection-start-column="103" selection-end-line="229" selection-end-column="103" />
-          <folding>
-            <element signature="e#5577#9261#0#HTML" />
-            <element signature="e#14559#14582#0#HTML" expanded="true" />
-            <element signature="e#14552#38425#0#HTML" />
-            <element signature="e#23546#23569#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangopinmgmt/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -677,6 +595,249 @@
             <caret column="43" selection-start-column="43" selection-end-column="43" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zE0DFC39C9/x-editable.html" />
+    <entry file="file://$PROJECT_DIR$/templates/sidebar.html" />
+    <entry file="file://C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/product-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="2622" column="4" lean-forward="true" selection-start-line="2622" selection-end-line="2825" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.html" />
+    <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/assets/css/style.daa2767a1312.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1351" column="32" lean-forward="true" selection-start-line="1351" selection-start-column="32" selection-end-line="1351" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/assets/icon/icofont/css/icofont.20cea577018e.20cea577018e.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="76099" selection-start-column="76099" selection-end-column="76099" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangopinmgmt/static/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="192" column="20" selection-start-line="192" selection-start-column="20" selection-end-line="192" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/soldpins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="2752" column="37" selection-start-line="2752" selection-start-column="37" selection-end-line="2752" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret column="462498" selection-start-column="462495" selection-end-column="462498" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="3593" column="31" lean-forward="true" selection-start-line="3593" selection-start-column="31" selection-end-line="3593" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/modal-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="2628" column="97" selection-start-line="2628" selection-start-column="49" selection-end-line="2628" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangopinmgmt/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="136" column="23" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
+          <folding>
+            <element signature="e#308#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangopinmgmt/forms.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/product-payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="2699" selection-start-line="2699" selection-end-line="2701" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/updatecard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+          <folding>
+            <element signature="e#6878#9281#0#HTML" />
+            <element signature="e#7412#7419#1#HTML" expanded="true" />
+            <element signature="e#9366#11769#0#HTML" />
+            <element signature="e#9900#9907#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/dashboard-analytics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="2849" selection-start-line="2849" selection-end-line="2849" />
+          <folding>
+            <element signature="n#div#13;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="194" column="68" lean-forward="true" selection-start-line="194" selection-start-column="68" selection-end-line="194" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/index-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="2734" lean-forward="true" selection-start-line="2734" selection-end-line="2734" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/dashboard-crm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="2722" column="21" lean-forward="true" selection-start-line="2722" selection-start-column="21" selection-end-line="2722" selection-end-column="21" />
+          <folding>
+            <element signature="n#div#0;n#div#12;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/My Web Sites/djangopinmgmt/html.codedthemes.com/mash-able/dark/dashboard-ecommerce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="2589" column="4" selection-start-line="2589" selection-start-column="1" selection-end-line="2603" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/wallet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="100" selection-start-line="100" selection-end-line="100" selection-end-column="36" />
+          <folding>
+            <element signature="e#1226#1273#0#HTML" expanded="true" />
+            <element signature="e#1748#1773#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="69" lean-forward="true" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+          <folding>
+            <element signature="e#6465#6488#0#HTML" expanded="true" />
+            <element signature="e#7032#7055#0#HTML" expanded="true" />
+            <element signature="e#7598#7621#0#HTML" expanded="true" />
+            <element signature="e#8165#8188#0#HTML" expanded="true" />
+            <element signature="e#8732#8755#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangopinmgmt/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userprofile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6698">
+          <caret line="394" selection-start-line="394" selection-end-line="394" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangopinmgmt/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangopinmgmt/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/includes/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="84" column="6" lean-forward="true" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unsoldpins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="222" column="123" lean-forward="true" selection-start-line="222" selection-start-column="123" selection-end-line="222" selection-end-column="123" />
         </state>
       </provider>
     </entry>

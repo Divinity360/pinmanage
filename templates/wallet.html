@@ -1,0 +1,101 @@
+{% load static %} {% include 'includes/header.html' %}
+
+<div id="pcoded" class="pcoded">
+    <div class="pcoded-overlay-box"></div>
+    <div class="pcoded-container navbar-wrapper">
+        {% include 'includes/topbar.html' %}
+
+        <div class="pcoded-main-container">
+            <div class="pcoded-wrapper">
+                {% include 'includes/sidebar.html' %}
+                <div class="pcoded-content">
+                    <div class="pcoded-inner-content">
+
+                        <div class="main-body">
+                            <div class="page-wrapper">
+
+                                <div class="page-header">
+                                    <div class="page-header-title">
+                                        <h3 style="font-weight: bold">MY WALLET</h3>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="page-body">
+                                    <div class="row">
+                                        <div class="col-md-12 col-xl-12">
+                                            <div class="card card-block nestable-success card-comment-icon">
+                                                <div class="row" style="padding-top: 60px; padding-bottom: 20px">
+                                                    <div class="col-6">
+                                                        <button class="btn btn-success btn-icon"><i
+                                                                class="icofont icofont-wallet"></i></button>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="text-right">
+                                                            <p class="f-16 m-t-15 m-b-0" style="font-weight: bold">Wallet Balance</p>
+                                                            <h1>&#8358; 2,534</h1>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="card card-block nestable-warning card-comment-icon">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <button class="btn btn-warning btn-icon"><i class="icofont icofont-credit-card"></i></button>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="text-right">
+                                                            <p class="f-16 m-t-15 m-b-0">Credit cards being used</p>
+                                                            <h2>2</h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="card card-block nestable-primary card-comment-icon">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <button class="btn btn-primary btn-icon"><i class="icofont icofont-shopping-cart"></i></button>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <div class="text-right">
+                                                            <p class="f-16 m-t-15 m-b-0">Recharge cards bought</p>
+                                                            <h2>534</h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {#                                        <div class="col-md-12 col-xl-12">#}
+                                        {#                                            <div class="card analytic-user">#}
+                                        {#                                                <div class="card-block-big text-center">#}
+                                        {#                                                    <i class="icofont icofont-wallet" style="font-size: 100px"></i>#}
+                                        {#                                                    <h1 style="font-weight: bold"><span>&#8358;     324587</span></h1>#}
+                                        {#                                                </div>#}
+                                        {#                                                <div class="card-footer p-t-25 p-b-25">#}
+                                        {#                                                </div>#}
+                                        {#                                            </div>#}
+                                        {#                                        </div>#}
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="styleSelector">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'includes/footer.html' %}

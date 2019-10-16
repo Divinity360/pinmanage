@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import url
 from . import views
 
 urlpatterns = [
@@ -28,5 +29,11 @@ urlpatterns = [
     path("emailverify/", views.emailverify, name="emailverify"),
     path("unsoldpins/", views.unsoldpins, name="unsoldpins"),
     path("soldpins/", views.soldpins, name="soldpins"),
-    path("userprofile/", views.userprofile, name="userprofile")
+    path("payment/", views.payment, name="payment"),
+    path("userprofile/", views.userprofile, name="userprofile"),
+    path("settings/", views.settings, name="settings"),
+    path("history/", views.history, name="history"),
+    path("wallet/", views.wallet, name="wallet"),
+    path("updatecard/", views.updatecard, name="updatecard"),
+    path("deletepin/<int:pk>", views.deletepin, name="deletepin")
 ]

@@ -1,6 +1,9 @@
 {% load static %}
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script>
+
+    {#Copying to clipboard#}
+
     function status(clickedBtn, id) {
         var text = document.getElementById(clickedBtn.dataset.descRef).innerText;
         copied(text, id);
@@ -9,6 +12,15 @@
         clickedBtn.disabled = true;
         clickedBtn.style.color = 'white';
         clickedBtn.style.background = 'gray';
+
+        var copyvar = "click"+ id;
+        console.log(copyvar)
+        var clicker = document.getElementById(copyvar);
+        clicker.click();
+    }
+
+    function deletePin(url) {
+        document.location.href = url;
     }
 
     function copied(x, y) {
@@ -18,13 +30,20 @@
         console.log(copied);
         document.getElementById(copied).appendChild(el);
         el.focus();
-        el.select();
-        document.execCommand('SelectAll');
-        document.execCommand("copy", false, null);
+        el.select()
+        try {
+            return document.execCommand("copy");
+// Security exception may be thrown by some browsers.
+        } catch (ex) {
+                console.warn("Copy to clipboard failed.", ex);
+            return false;
+        } finally {
+            document.getElementById(copied).removeChild(el);
+        }
     }
 </script>
-<script type="text/javascript" src="{% static 'bower_components/jquery/js/jquery.min.js' %}"></script>
-<script type="text/javascript" src="{% static 'bower_components/jquery-ui/js/jquery-ui.min.js' %}"></script>
+<script type = "text/javascript" src = "{% static 'bower_components/jquery/js/jquery.min.js' %}" ></script>
+<script type = "text/javascript" src = "{% static 'bower_components/jquery-ui/js/jquery-ui.min.js' %}" ></script>
 <script type="text/javascript" src="{% static 'bower_components/popper.js/js/popper.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'bower_components/bootstrap/js/bootstrap.min.js' %}"></script>
 
@@ -34,6 +53,9 @@
 <script type="text/javascript" src="{% static 'bower_components/modernizr/js/css-scrollbars.js' %}"></script>
 
 <script type="text/javascript" src="{% static 'bower_components/classie/js/classie.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/pages/payment-card/card.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/pages/payment-card/jquery.payform.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/pages/payment-card/e-payment.js' %}"></script>
 
 <script src="{% static 'bower_components/datatables.net/js/jquery.dataTables.min.js' %}"></script>
 <script src="{% static 'bower_components/datatables.net-buttons/js/dataTables.buttons.min.js' %}"></script>
@@ -47,10 +69,13 @@
 <script src="{% static 'bower_components/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
 
 <script type="text/javascript" src="{% static 'bower_components/i18next/js/i18next.min.js' %}"></script>
-<script type="text/javascript" src="{% static 'bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js' %}"></script>
-<script type="text/javascript" src="{% static 'bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js' %}"></script>
+<script type="text/javascript"
+        src="{% static 'bower_components/i18next-xhr-backend/js/i18nextXHRBackend.min.js' %}"></script>
+<script type="text/javascript"
+        src="{% static 'bower_components/i18next-browser-languagedetector/js/i18nextBrowserLanguageDetector.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'bower_components/jquery-i18next/js/jquery-i18next.min.js' %}"></script>
 
+<script src="{% static 'assets/pages/user-profile.js' %}"></script>
 <script src="{% static 'assets/pages/data-table/js/data-table-custom.js' %}"></script>
 <script type="text/javascript" src="{% static 'assets/js/script.js' %}"></script>
 <script src="{% static 'assets/js/pcoded.min.js' %}"></script>
